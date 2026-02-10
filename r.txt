@@ -1,0 +1,29 @@
+# --- Web Framework ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# --- Computer Vision & Image Processing ---
+opencv-python>=4.9.0
+pillow>=10.3.0
+numpy>=1.26.0
+
+# --- Object Detection (YOLO) ---
+ultralytics>=8.2.0
+
+# --- Transformers & GLM-OCR Dependencies ---
+transformers>=4.40.0
+huggingface-hub>=0.23.0
+
+# --- Tokenizers ---
+tiktoken>=0.7.0
+sentencepiece>=0.2.0
+
+# --- Model loading / inference helpers ---
+accelerate>=0.30.0
+einops>=0.8.0
+protobuf>=5.26.0
+
+# NOTE:
+# torch / torchvision / torchaudio are installed separately
+# with CUDA support (cu121) for RTX 3060 laptop
