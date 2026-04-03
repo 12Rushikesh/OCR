@@ -1,0 +1,15 @@
+✅ Which files YOU should install
+
+Your environment:
+
+Python = 3.10 ✔
+
+So you must install cp310 files only 👇
+
+🚀 Install in THIS ORDER
+
+Run these commands:
+
+pip install tensorrt-10.16.0.72-cp310-none-win_amd64.whl
+pip install tensorrt_dispatch-10.16.0.72-cp310-none-win_amd64.whl
+pip install tensorrt_lean-10.16.0.72-cp310-none-win_amd64.whl
